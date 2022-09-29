@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.flex{
+    display: flex;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    
+}
+.f-space-around{
+    justify-content: space-around;
+}
+.f-space-between{
+    justify-content: space-between;
+   gap: 1em;
+}
+
+header{
+    height: 5vh;
+    width: 100vw;
+    justify-content: end;
+    background-color: black;
+}
+main{
+    height: 85vh;
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+}
+
+.maximize{
+    background-color: gray;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px ;
+    border: none;
+    color: white;
+}
+.view{
+    background-color: gray;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px ;
+    border: none;
+    color: white;
+}
+.user{
+    position: relative;
+    width: 10vw;
+    height: 15vh;
+    margin: 0.2em;
+}
+.user > img{
+    width: 10vw;
+    height: 15vh;
+    
+}
+.user-name{
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    color: white;
+    
+}
+.mute{
+    height: 10vh;
+    width: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.mute :nth-child(1){
+    font-size: 2em;
+    justify-content: center;
+}
+.caret-up{
+    align-items: center;
+    
+    
+}
+.stop-video{
+ 
+        height: 10vh;
+        width: 5vw;
+        justify-content: center;
+        align-items: center;
+  
+} 
+.stop-video :nth-child(1){
+    font-size: 2em;
+}
+.center-button{
+    height: 10vh;
+    width: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.center-button :nth-child(1){
+    font-size: 2em;
+    justify-content: center;
+}
+
+.width-auto{
+    width: auto;
+}
+.end-meeting{
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: red;
+    background-color: lightslategray;
+}
